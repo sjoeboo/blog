@@ -1,8 +1,8 @@
 # Page settings
 
-baseurl = "http://example.org/"
+baseurl = "http://mattynick.com/"
 languageCode = "en-us"
-title = "John Doe Resume"
+title = "Matthew Nicholson"
 theme = "hugo-orbit-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
