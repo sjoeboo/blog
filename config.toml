@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "http://mattynick.com/"
+baseurl = "https://mattynick.com/"
 languageCode = "en-us"
 title = "Matthew Nicholson"
 theme = "hugo-orbit-theme"
