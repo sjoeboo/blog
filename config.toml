@@ -14,8 +14,8 @@ disable404 = true
 [params]
 
 # Meta
-    description = "Hugo Responsive Resume/CV Theme for Developers"
-    author = "Pavel Kanyshev"
+    description = "Matthew Nicholson"
+    author = "Matthew Nicholson"
 
 # Theme styles
 
@@ -30,9 +30,9 @@ disable404 = true
 
     # Profile section
     [params.profile]
-        name = "John Doe"
-        tagline = "Full Stack Developer"
-        avatar = "profile.png"
+        name = "Matthew Nicholson"
+        tagline = "Site Reliability Engineer"
+        avatar = "me.png"
 
     # Contact section
     [params.contact]
@@ -41,38 +41,33 @@ disable404 = true
         [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
-        url = "mailto: yourname@email.com"
-        title = "john.doe@website.com"
+        url = "mailto: matthew.a.nicholson@gmail.com"
+        title = "email"
 
-        [[params.contact.list]]
-        class = "phone"
-        icon = "fa-phone"
-        url = "tel:+1234567890"
-        title = "+1234567890"
 
         [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
-        url = "//portfoliosite.com"
-        title = "portfoliosite.com"
+        url = "//mattynick.com"
+        title = "mattynick.com"
 
         [[params.contact.list]]
         class = "linkedin"
         icon = "fa-linkedin"
-        url = "//linkedin.com/in/johndoe"
-        title = "linkedin.com/in/johndoe"
+        url = "//linkedin.com/in/matthew-nicholson-5809473/"
+        title = "linkedin.com"
 
         [[params.contact.list]]
         class = "github"
         icon = "fa-github"
-        url = "//github.com/username"
-        title = "github.com/username"
+        url = "//github.com/sjoeboo"
+        title = "github.com"
 
         [[params.contact.list]]
         class = "twitter"
         icon = "fa-twitter"
-        url = "//twitter.com/username"
-        title = "@twittername"
+        url = "//twitter.com/sjoeboo"
+        title = "@sjoeboo"
 
     # Education section
     [params.education]
@@ -80,14 +75,10 @@ disable404 = true
         title = "Education"
 
         [[params.education.list]]
-        degree = "MSc in Computer Science"
-        college = "University of London"
-        dates = "2006 - 2010"
+        degree = "BS in Computer Network Information Systems"
+        college = "Wentworth Institute of Tech."
+        dates = "2002 - 2006"
 
-        [[params.education.list]]
-        degree = "BSc in Applied Mathematics"
-        college = "Bristol University"
-        dates = "2007 - 2011"
 
     # Languages section
     [params.language]
@@ -98,24 +89,16 @@ disable404 = true
         language = "English"
         level = "Native"
 
-        [[params.language.list]]
-        language = "French"
-        level = "Professional"
-
-        [[params.language.list]]
-        language = "Russian"
-        level = "Professional"
-
     # Interests section
     [params.interests]
         enable = true
-        title = "Interests"
+        title = "Being a Dad"
 
         [[params.interests.list]]
-        interest = "Climbing"
+        interest = "Skiing"
 
         [[params.interests.list]]
-        interest = "Snowboarding"
+        interest = "Music"
 
         [[params.interests.list]]
         interest = "Cooking"
@@ -129,7 +112,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+        summary = "Experienced Site Reliability Engineer currently focused on Observability/Reliability engineering. Background in DevOps/SysAdmin positions mostly in Research Computing and HPC orriented environments. "
 
     # Experiences section
     [params.experiences]
@@ -138,9 +121,10 @@ disable404 = true
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Lead Developer"
-        dates = "2015 - Present"
-        company = "Startup Hubs, San Francisco"
+        position = "Site Reliability Engineer"
+        dates = "2016 - Present"
+        company = "Spotify"
+        details = " "
         details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
 
         [[params.jobs.list]]
