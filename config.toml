@@ -111,14 +111,14 @@ disable404 = true
     [params.summary]
         enable = true
         icon = "fa-user"
-        title = "Career Profile"
+        title = "Who am I?"
         summary = "Experienced Site Reliability Engineer currently focused on Observability/Reliability engineering. Background in DevOps/SysAdmin positions mostly in Research Computing and HPC orriented environments. "
 
     # Experiences section
     [params.experiences]
         enable = true
         icon = "fa-briefcase"
-        title = "Experiences"
+        title = "Where have I been?"
 
         [[params.jobs.list]]
         position = "Site Reliability Engineer"
@@ -148,7 +148,7 @@ disable404 = true
     [params.projects]
         enable = true
         icon = "fa-archive"
-        title = "Projects"
+        title = "What have I done?"
         intro = "Some of the projects I've worked on"
 
         [[params.projects.list]]
@@ -180,7 +180,7 @@ disable404 = true
     [params.skills]
         enable = true
         icon = "fa-rocket"
-        title = "Skills & Proficiency"
+        title = "What have I learned?"
 
         [[params.skills.list]]
         skill = "Python"
